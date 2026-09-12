@@ -26,6 +26,7 @@ Il m'a demandé énormément d'heures de travail, j'ai voulu tout faire de moi-m
 * Même si c'est très long, je prends plaisir et je progresse.
 * 
 ##  Structure du projet
+```text
 ├── index.html        # Page principale (Interface Netflix)
 ├── index.css         # Styles de la page principale
 ├── index.js          # Scripts JavaScript (interactions, animations)

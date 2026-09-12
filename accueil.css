@@ -1,0 +1,81 @@
+html
+{
+    text-align: center;
+    min-height: 100vh; /* problème avec le background image vu que le code il est petit faut utiliser ça pour que le background prenne tout l'espace de la fenêtre */
+    background-repeat: no-repeat; 
+    background-image:  linear-gradient(black, rgb(18, 18, 18) 10%);
+    background-attachment:scroll;
+
+
+}
+
+body{
+        
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh; 
+        justify-content: center;  
+        margin: 0;
+        
+         
+}
+
+/* Le grand titre*/
+h1
+{
+
+    color: white;
+    text-align: center;
+    font-size: 67px;
+    font-weight:400;
+    margin-bottom: 30px;  
+    margin-top: 0;  
+
+}
+
+/* Les profils */
+.PP
+{
+  margin: 5px;
+}
+
+.profil
+{
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;  
+    justify-content: center;  
+    margin: 0 auto; 
+ 
+   
+
+    
+}
+a img
+{
+    width: 140px;
+    height: 140px;
+    border-radius: 4%;
+    border: solid 3px transparent;
+}
+
+/* Titre des profils */
+
+h2
+{
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px; 
+    margin-bottom: 0;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+
+/* voir ce que c'est justify-content: space-evenly;*/

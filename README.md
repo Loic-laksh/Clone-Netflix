@@ -24,3 +24,11 @@ Il m'a demandé énormément d'heures de travail, j'ai voulu tout faire de moi-m
 * Cela m'a poussé à apprendre davantage de JavaScript et à comprendre comment manipuler les éléments du DOM. 
 * Pour cela, j'ai dû faire beaucoup d'erreurs et beaucoup d'essais, puis les corriger et chercher de nouvelles solutions lorsque le comportement obtenu n'était pas celui que j'attendais. 
 * Même si c'est très long, je prends plaisir et je progresse.
+* 
+##  Structure du projet
+├── index.html        # Page principale (Interface Netflix)
+├── index.css         # Styles de la page principale
+├── index.js          # Scripts JavaScript (interactions, animations)
+├── accueil.html      # Page de sélection des profils
+├── accueil.css       # Styles de la page d'accueil
+└── (images & vidéos) # Ressources multimédias du projet
